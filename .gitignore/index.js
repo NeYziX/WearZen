@@ -121,7 +121,7 @@ bot.on('message', message => {
 });
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "bienvenue").send(`${member}, bienvenue sur le serveur ;) ;)`)
+    member.guild.channels.find("name", "bienvenue").send(`${member}, bienvenue sur le serveur :wink:`)
 });
 
 bot.on("guildMemberRemove", member => {
